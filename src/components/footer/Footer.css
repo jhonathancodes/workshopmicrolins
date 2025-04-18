@@ -1,0 +1,34 @@
+.footer {
+    background-color: #011e41;
+    color: white;
+    padding: 30px 5%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .btn-topo {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    background-color: #011e41;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-topo:hover {
+    background-color: #d4af37;
+    color: #011e41;
+  }

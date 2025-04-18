@@ -1,0 +1,112 @@
+.funcionamento {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow-x: hidden;
+    width: 100vw;
+    background: url('../../assets//fundo2.jpg') no-repeat center center/cover;
+}
+
+.funcionamento .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.funcionamento h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Shadows Into Light', serif;
+}
+
+.funcionamento p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 800px;
+}
+
+.funcionamento .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.funcionamento .card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.funcionamento .card:hover {
+    transform: translateY(-5px);
+}
+
+.funcionamento .card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    filter: invert(1);
+}
+
+.funcionamento .card h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Shadows Into Light', serif;
+}
+
+.funcionamento .card p {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 1024px) {
+    .funcionamento {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .funcionamento .overlay {
+        position: relative;
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+        padding: 40px 20px;
+    }
+
+    .funcionamento h2 {
+        font-size: 2rem;
+    }
+
+    .funcionamento p {
+        font-size: 1rem;
+    }
+
+    .funcionamento .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .funcionamento .card {
+        width: 100%;
+        max-width: 320px;
+    }
+}

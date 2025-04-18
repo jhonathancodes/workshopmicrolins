@@ -1,0 +1,41 @@
+.inscricao {
+    background: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.inscricao h2 {
+    font-size: 2rem;
+    color: #011e41;
+    margin-bottom: 20px;
+    font-family: 'Shadows Into Light', serif;
+}
+
+.inscricao p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+form input {
+    padding: 12px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+:root {
+    --primary-color: #d4af37;
+    --dark-background: #011e41;
+    --text-light: #ffffff;
+  }

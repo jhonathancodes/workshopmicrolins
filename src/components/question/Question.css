@@ -1,0 +1,122 @@
+.question {
+    padding: 100px 5%;
+    background-color: #ffffff;
+  }
+  
+  .question-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .question-item {
+    background: var(--dark-background); 
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .question-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .question-header .subtitle {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    color: var(--dark-background);
+    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+  }
+  
+  .question-header h2 {
+    font-size: 2.5rem;
+    color: var(--dark-background);
+    margin: 0;
+    font-family: 'Shadows Into Light', serif;
+    font-weight: 300;
+  }
+  
+  .question-title {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+    color: white;
+  }
+  
+  .question-title:hover {
+    color: var(--primary-color);
+    transition: color 0.9s ease;
+  }
+  
+  .question-title h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .toggle-icon {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    min-width: 24px;
+    text-align: center;
+  }
+  
+  .question-answer {
+    padding: 0 1.5rem;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    background-color: var(--dark-background);
+    max-height: 0;
+    opacity: 0;
+  }
+  
+  .question-answer p {
+    opacity: 0.8;
+    line-height: 1.6;
+    margin: 0;
+    padding-bottom: 1.5rem;
+    color: white;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-family: 'Open Sans', sans-serif;
+    white-space: normal;
+  }
+  
+  @media (max-width: 768px) {
+    .question-title h3 {
+      font-size: 1rem;
+    }
+  
+    .question-answer p {
+      font-size: 0.95rem;
+    }
+  
+    .question-header .subtitle {
+      font-size: 1rem;
+    }
+  
+    .question-header h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .question-title {
+      padding: 1rem;
+    }
+  
+    .question-answer {
+      padding: 0 1rem;
+    }
+  
+    .question-answer p {
+      font-size: 0.9rem;
+    }
+  }
