@@ -1,5 +1,5 @@
 import React from 'react';
-import './On.css'; // Certifique-se de que o CSS esteja importado corretamente
+import './On.css'; 
 
 function On() {
   return (
