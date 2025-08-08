@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Enrollment.css'; // Crie esse CSS se quiser estilizar
+import './Enrollment.css'; 
 
 function Enrollment() {
   const [nome, setNome] = useState('');
