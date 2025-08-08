@@ -1,5 +1,5 @@
 import React from 'react';
-import './Operation.css'; // Certifique-se de ter um arquivo CSS com esse nome ou ajuste o caminho
+import './Operation.css'; 
 
 function Operation() {
   return (
