@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Question.css'; // Se quiser manter a estilização original
+import './Question.css'; 
 
 const questions = [
   {
