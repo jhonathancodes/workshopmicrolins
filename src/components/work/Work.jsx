@@ -1,5 +1,5 @@
 import React from 'react';
-import './Work.css'; // Certifique-se de que o CSS está importado corretamente
+import './Work.css'; 
 
 function Work() {
   return (
