@@ -1,5 +1,5 @@
 import React from 'react';
-import './Public.css'; // Certifique-se de ter um arquivo CSS com esse nome ou ajuste o caminho
+import './Public.css'; 
 
 function Public() {
   return (
